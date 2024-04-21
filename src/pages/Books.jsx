@@ -3,9 +3,9 @@ import React from "react";
 
 export default function Books() {
 	return (
-		<View>
-			<Text>Books</Text>
-		</View>
+		<>
+			<h1>Hello</h1>
+		</>
 	);
 }
 
