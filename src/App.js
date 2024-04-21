@@ -2,9 +2,13 @@ import {React} from "react";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 import './index.css'
+import './styles/home.css'
+import './styles/footer.css'
+import './styles/auth.css'
+import './styles/navbar.css'
+
 import MainPage from "./pages/MainPage";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import Login from "./pages/Login";
 import PageNotFound from "./pages/PageNotFound";
 import Auth from "./pages/Auth";
