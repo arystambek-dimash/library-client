@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Ubuntu Mono", monospace;
+}
+div.book-searcher {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	gap: 15px;
+}
+
+div.book-searcher input.search-book-input {
+	width: 70%;
+	padding: 15px 30px;
+	border: #333 solid 0px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.2),
+		3px 6px 20px 10px rgb(52 52 52 / 19%);
+	/* text-align: center; */
+}
+div.book-searcher input.search-book-input:focus-visible {
+	outline-color: #b6312e;
+}
+
+div.book-searcher div.sort-option-buttons {
+	display: flex;
+	gap: 10px;
+}
+div.book-searcher div.sort-option-buttons button.sort-button {
+	padding: 10px 40px;
+	font-size: 17px;
+	border: none;
+	box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.2),
+		3px 6px 20px 10px rgb(52 52 52 / 10%);
+}
+div.book-searcher div.sort-option-buttons button.sort-button:hover {
+	background: #b6312e;
+	color: #fff;
+	transition: 0.15s;
+}
+
+div.books-body {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+div.books-body div.book-container {
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1%;
+	row-gap: 30px;
+}
+
+div.books-body div.book-container div.book-card {
+	padding: 15px;
+	transition: 0.1s;
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+div.books-body div.book-container div.book-card:hover {
+	background: #b6312e;
+	color: #fff;
+}
+
+div.books-body div.book-container div.book-card img.card-image {
+	width: 250px;
+}
+div.books-body div.book-container div.book-card div.card-info {
+}
+
+div.books-body div.book-container div.book-card p.book-title {
+}
+
+div.books-body div.book-container div.book-card div.rating {
+	display: flex;
+	gap: 4%;
+}
+
+div.books-body div.book-container div.book-card div.rating div.rating-star {
+}
+
+div.books-body div.book-container div.book-card div.rating p.ratingCount {
+}
+
+div.books-body div.book-container div.book-card p.book-author {
+}
